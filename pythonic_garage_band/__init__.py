@@ -21,5 +21,5 @@ class Band(Musician):
         print(Musician(self._repr_))
   
 
-guitarist = Band(name = 'Dillon')
+guitarist = Band.to_list(name = 'Dillon')
 print(guitarist)
